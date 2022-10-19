@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OdontocitasG8</title>
+    <link rel="stylesheet" href = "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Consultorio Odontologico</h1>
+    
+    <di class="wrapper">
+        <div class="banner-wrapper">
+            <header>
+                <div class="header-inner">
+                    <a href="index.html" id="logo">
+                        <img src="img/Logo_negro.png" alt="Logo">
+                    </a>
+                    <nav>
+                        <a href="#" id="menu-icon">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                        <ul>
+                            <li>
+                                <a href="index.html">Inicio</a>
+                            </li>
+                            <li>
+                                <a href="#">Agendar Citas</a>
+                            </li>
+                            <li>
+                                <a href="#">Servicios</a>
+                            </li>
+                            <li>
+                                <a href="#">Contacto</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+
+            <div class="slide-wrap">
+                <ul calls="slider1">
+                    <li><img src="Img/sliders/slider1.jpg"></li>
+                    <li><img src="Img/sliders/slider2.jpg"></li>
+                    <li><img src="Img/sliders/slider3.jpg"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Script jquery-->
+    <script>
+         $(document).ready(function(){
+            $('.slider1').bxSlider({
+                mode: 'fade'
+            })
+            $('.slider2').bxSlider({
+                mode: 'fade'
+            })
+            $('.slider3').bxSlider({
+                mode: 'fade'
+            })
+         })
+    </script>
+   
+
+</body>
+</html>
